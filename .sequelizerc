@@ -1,0 +1,7 @@
+const path = require('path');
+module.exports = {
+    "config": path.resolve('./src/config', 'db.json'),
+    "models-path": path.resolve('./src/models'), //migrations folder will hold our application's migrations
+    "seeders-path": path.resolve('./src/seeders'), //Seed data is initial data provided with a system for testing, training or templating purposes. The seeders folder typically holds seed data, but we're not going to be using that in this tutorial.
+    "migrations-path": path.resolve('./src/migrations')
+};

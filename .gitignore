@@ -1,0 +1,59 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+*.pem
+*.xlsx
+
+**/build
+**/node_modules
+**/dist
+
+
+**/node_modules
+client-backend/src/utils/request-temp.js
+client-backend/_roadhog-api-doc
+
+# production
+**/dist
+**/.vscode
+
+# misc
+**/client-backend.DS_Store
+**/npm-debug.log*
+**/yarn-error.log
+
+**/coverage
+**/.idea
+**/*bak
+
+# visual studio code
+**/.history
+**/*.log
+**/functions/*
+**/.temp/**
+
+# umi
+**/.umi
+**/.umi-production
+
+# screenshot
+**/screenshot
+**/.firebase
+**/.eslintcache
+
+server/package-lock.json
+
+client-backend/package-lock.json
+*.code-workspace
+.editorconfig
